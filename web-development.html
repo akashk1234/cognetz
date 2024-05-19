@@ -13,7 +13,11 @@
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/js/loader.js"></script>
     
-
+    <style>
+        .active{
+            font-weight: 600 !important;
+        }
+    </style>
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
@@ -28,34 +32,40 @@
                 </button>
                 <div class="collapse navbar-collapse" id="edicaMainNav">
                     <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item ">
                             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item dropdown justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="web-development.html">Web Development</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="digital-marketing.html">Digital Marketing</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown justify-content-center">
                             <a class="nav-link dropdown-toggle" href="web-development.html" id="blogDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Development</a>
                             <div class="dropdown-menu" aria-labelledby="blogDropdown">
                                 <a class="dropdown-item" href="web-development.html">web</a>
-                                <!-- <a class="dropdown-item" href="blog-single.html">Blog Post</a> -->
+                                <a class="dropdown-item" href="blog-single.html">Blog Post</a>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
+                        </li> -->
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="digital-marketing.html" id="pagesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Marketing</a>
                             <div class="dropdown-menu" aria-labelledby="pagesDropdown">
                                 <a class="dropdown-item" href="digital-marketing.html">Digital marketing</a>
                             </div>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav mt-2 mt-lg-0">
-                        <!-- <li class="nav-item">
+                    <!-- <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item">
                             <a class="nav-link" href="#"><span class="flag-icon flag-icon-squared rounded-circle flag-icon-gb"></span> Eng</a>
-                        </li> -->
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Download</a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
             </nav>
             <div class="edica-landing-header-content">
@@ -66,30 +76,40 @@
                         <!-- <li data-target="#edicaLandingHeaderCarousel" data-slide-to="2">.03</li> -->
                     </ol>
                     <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <div class="row">
+                        <div class="carousel-item active p-md-5 p-3">
+                            <div class="row p-2 p-md-4" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;">
                                 <div class="col-md-6 carousel-content-wrapper">
                                     <h1 >Welcome to Cognetz: <br> Your Premier Digital Solutions Partner</h1>
                                     <p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
                                     <div class="carousel-content-btns">
-                                        <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> Contact</a>
-                                        <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i>  Services</a>
-                                     </div>
+                                        <style>
+                                            .carousel-content-btns a{
+                                                background-color: #479fbd;
+                                                border: none;
+                                            }
+                                        </style>
+                                           <a href="contact.html" class="btn btn-success" > Contact</a>
+                                        </div>
                                 </div>
                                 <div class="col-md-6 carousel-img-wrapper">
                                     <img src="assets/images/banner/web1.png" alt="carousel-img" class="img-fluid" width="450px">
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
-                             <div class="row">
+                        <div class="carousel-item p-md-5 p-3">
+                           <div class="row p-2 p-md-4" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;">
                                  <div class="col-md-6 carousel-content-wrapper">
                                      <h1>The best Digital Marketing Services</h1>
                                      <p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
                                      <div class="carousel-content-btns">
-                                         <a href="#!" class="btn btn-success"> <i class="fab fa-apple mr-2"></i> App Store</a>
-                                         <a href="#!" class="btn btn-secondary"> <i class="fab fa-android mr-2"></i> Google Play</a>
-                                     </div>
+                                        <style>
+                                            .carousel-content-btns a{
+                                                background-color: #479fbd;
+                                                border: none;
+                                            }
+                                        </style>
+                                           <a href="contact.html" class="btn btn-success" > Contact</a>
+                                        </div>
                                  </div>
                                  <div class="col-md-6 carousel-img-wrapper">
                                      <img src="assets/images/banner/WE22.png" alt="carousel-img" class="img-fluid" width="450px">
@@ -178,7 +198,7 @@ color: white;
                     <h1 class="my-5 col-12 text-center" data-aos="fade-down" style="color: #ffffff; font-weight: 600 ;">Our <span style="color: #338bd7;">Web Development</span> Services</h1>
 
                         
-                        <div class="col-md-6 col-lg-6 my-3">
+                        <div class="col-md-6 col-lg-6 my-3" id="e-commerce-solutions">
                             <div class="glass-card p-4" data-aos="fade-right">
                                 <h5>E-commerce Solutions</h5>
                                 <p>We believe that web development is an art form, blending technology with creativity to create captivating digital experiences. Let us design a website for you that engages your audience and sets you apart from the competition.</p>
@@ -345,7 +365,7 @@ color: white;
                     <h3 data-aos="fade-down">EXCELLENT CUSTOMER SERVICE <br> IS OUR FOUNDATION</h3>
 
                     <div class="row">
-                        <div class="col-md-6 col-lg-6 my-2">
+                        <div class="col-md-6 col-lg-6 my-2" id="custom-website-development">
                             <div class="inner-card p-4" data-aos="fade-down">
                                 <h6>Custom Website Development</h6>
                                 <small>We specialize in custom web development services, tailoring solutions to meet our clients' unique needs. With over 15 years of experience, we excel in creating websites that exceed expectations, focusing on integrating requested features seamlessly.</small>
@@ -363,7 +383,7 @@ color: white;
                                 <small>Benefit from our competitive and budget-friendly web hosting packages. Whether you need cloud, shared, dedicated, or VPS hosting, we've got you covered. As your one-stop web solution provider, we ensure dedicated and meticulous service every step of the way.</small>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6 my-2">
+                        <div class="col-md-6 col-lg-6 my-2" id="mobile-app-development">
                             <div class="inner-card p-4" data-aos="fade-up">
                                 <h6>Mobile App Development</h6>
                                 <small>Leave your mobile app project in capable hands. Our skilled developers are adept at crafting top-notch solutions customized to your requirements, whether for Android, iOS, or hybrid platforms. Reach out to us now to embark on your mobile app journey with assurance.</small>
@@ -467,15 +487,36 @@ color: white;
        
     </main>
     
-    <footer class="edica-footer" data-aos="fade-up">
+    <footer class="edica-footer" data-aos="fade-up" style="margin-top: 0px; padding-top: 50px;">
+        <style>
+            .contact-number{
+                color: #fff;
+                text-decoration: none !important;
+            }
+            .contact-number:hover{
+                color: #479fbd;
+            }
+        </style>
         <div class="container">
             <div class="row footer-widget-area">
                 <div class="col-md-3">
                     <a href="index.html" class="footer-brand-wrapper">
-                        <img src="assets/images/logo.png" alt="edica logo">
+                        <img src="assets/images/logo.png" alt="edica logo" style="width: 200px;">
                     </a>
-                    <p class="contact-details">info@cognetz.com</p>
-                    <p class="contact-details">+91 99618 70893</p>
+                    <a href="mailto:info@cognetz.com" class="contact-number">
+                        <p class="">info@cognetz.com</p>
+                    </a>
+                    <br>
+                    <a href="tel:+918921999393" class="contact-number">
+                        <p class=""><img src="assets/images/india.png" alt="" width="30"> Kerala</p>
+                        <h5 class="ml-4" style="margin-top: -15px;">+91 8921999393</h5>
+                    </a>
+                    <br>
+                    <a href="tel:+971562343376" class="contact-number">
+                        <p class=""><img src="assets/images/uae.png" alt="" width="30"> Dubai</p>
+                        <h5 class="ml-4" style="margin-top: -15px;">+971 562343376</h5>
+                    </a>
+
                     <nav class="footer-social-links">
                         <a href="#!"><i class="fab fa-facebook-f"></i></a>
                         <a href="#!"><i class="fab fa-whatsapp"></i></a>
@@ -493,41 +534,39 @@ color: white;
                 </style>
                 <div class="col-md-3">
                     <nav class="footer-nav">
-                        <a href="#!" class="nav-link">Web Development</a>
-                        <a href="#!" class="nav-link">Digital Marketing</a>
-                        <a href="#!" class="nav-link">Search Engine Optimization (SEO)</a>
-                        <a href="#!" class="nav-link">Social Media Marketing</a>
-                        <a href="#!" class="nav-link">E-commerce Solutions</a>
-                        <a href="#!" class="nav-link">Online Advertising</a>
-                        <a href="#!" class="nav-link">Content Marketing</a>
-                        <a href="#!" class="nav-link">Influencer Marketing</a>
-                        <a href="#!" class="nav-link">Online Reputation Management</a>
+                        <a href="web-development.html" class="nav-link">Web Development</a>
+                        <a href="digital-marketing.html" class="nav-link">Digital Marketing</a>
+                        <a href="#seo" class="nav-link">Search Engine Optimization (SEO)</a>
+                        <a href="#social-media-marketing" class="nav-link">Social Media Marketing</a>
+                        <a href="#e-commerce-solutions" class="nav-link">E-commerce Solutions</a>
+                        <a href="#online-advertising" class="nav-link">Online Advertising</a>
+                        <a href="#content-marketing " class="nav-link">Content Marketing</a>
+                        <a href="#Influencer-Marketing" class="nav-link">Influencer Marketing</a>
+                        <a href="#Online-Reputation-Management" class="nav-link">Online Reputation Management</a>
                     </nav>
                 </div>
                 <div class="col-md-3">
                     <nav class="footer-nav">
-                        <a href="#!" class="nav-link">Email Marketing</a>
-                        <a href="#!" class="nav-link">Mobile App Marketing</a>
-                        <a href="#!" class="nav-link">Video Marketing</a>
-                        <a href="#!" class="nav-link">Custom Website Development</a>
-                        <a href="#!" class="nav-link">Branding</a>
-                        <a href="#!" class="nav-link">Mobile App Development</a>
-                        <a href="#!" class="nav-link">Web Hosting</a>
-                        <a href="#!" class="nav-link">Video Production</a>
-                        <a href="#!" class="nav-link">Digital Business Card Maker</a>
+                        <a href="#Email-Marketing" class="nav-link">Email Marketing</a>
+                        <a href="#mobile-app-marketing" class="nav-link">Mobile App Marketing</a>
+                        <a href="#video-marketing" class="nav-link">Video Marketing</a>
+                        <a href="#custom-website-development" class="nav-link">Custom Website Development</a>
+                        <a href="#branding" class="nav-link">Branding</a>
+                        <a href="#mobile-app-development" class="nav-link">Mobile App Development</a>
+                        <a href="#web-hosting" class="nav-link">Web Hosting</a>
+                        <a href="#video-production" class="nav-link">Video Production</a>
+                        <a href="#digital-business-card" class="nav-link">Digital Business Card Maker</a>
                     </nav>
                 </div>
                 <div class="col-md-3">
                     <nav class="footer-nav">
-                        <a href="#!" class="nav-link">About Us</a>
-                        <a href="#!" class="nav-link">Services</a>
-                        <a href="#!" class="nav-link">solutions</a>
+                        <a href="#about-us" class="nav-link">About Us</a>
+                        <a href="#services" class="nav-link">Services</a>
                         <a href="#!" class="nav-link">Projects</a>
-                        <a href="#!" class="nav-link">Clients</a>
-                        <a href="#!" class="nav-link">Contact</a>
-                        <a href="#!" class="nav-link">careers</a>
-                        <a href="#!" class="nav-link">Testimonials</a>
-                        <a href="#!" class="nav-link">Blogs</a>
+                        <a href="#clients" class="nav-link">Clients</a>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                        <a href="careers.html" class="nav-link">careers</a>
+                        <a href="#Testimonials" class="nav-link">Testimonials</a>
                     </nav>
                 </div>
             </div>
@@ -535,7 +574,7 @@ color: white;
                 <nav class="nav footer-bottom-nav">
                     <a href="#!">Privacy & Policy</a>
                     <a href="#!">Terms</a>
-                    <a href="#!">Site Map</a>
+                    <a href="contact.html">Contact Now</a>
                 </nav>
                 <p class="mb-0">© Cognetz . 2024 . All rights reserved .</p>
             </div>
