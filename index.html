@@ -16,6 +16,9 @@
         .active{
             font-weight: 600 !important;
         }
+        .nav-link{
+                    font-size: 18px !important;
+                }
     </style>
 
     <!-- font awsome -->
@@ -24,9 +27,8 @@
 <body >
     <div class="edica-loader"></div>
     <header class="edica-header edica-landing-header">
-        <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" width="180" alt="Edica"></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" width="210" alt="Edica"></a>
                 <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#edicaMainNav" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -68,6 +70,34 @@
                     </ul> -->
                 </div>
             </nav>
+            <style>
+                
+                .hero-card{
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;
+                }
+                .main-text{
+                    font-weight: 400;
+                    font-size: 80px;
+                    line-height: 1.2;
+                }
+                .sub-text{
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 1.8;
+                    color: rgb(192, 192, 192);
+                }
+                @media (max-width:768px){
+                    .main-text{
+                        font-size: 50px;
+                    }
+                    .sub-text{
+                        font-size: 15px;
+                    }
+                    .hero-card{
+                        height: 768px;
+                    }
+                }
+            </style>
             <div class="edica-landing-header-content" >
                <div id="edicaLandingHeaderCarousel" class="carousel slide" data-ride="carousel">
                    <ol class="carousel-indicators">
@@ -76,11 +106,11 @@
                        <li data-target="#edicaLandingHeaderCarousel" data-slide-to="2">.03</li>
                    </ol>
                    <div class="carousel-inner" role="listbox">
-                       <div class="carousel-item active p-md-5 p-3">
-                           <div class="row p-2 p-md-4 align-items-center" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;">
+                       <div class="carousel-item active px-md-5 px-4 py-3">
+                           <div class="row p-2 p-md-4 align-items-center hero-card" >
                                <div class="col-md-6 carousel-content-wrapper">
-                                   <h1 >Welcome to Cognetz: <br> Your Premier Digital Solutions Partner</h1>
-                                   <p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
+                                   <h1 class="main-text">Transforming ideas into digital success</h1>
+                                   <p class="sub-text">Experts in digital transformation, we specialize in bringing your ideas to online, turning your concepts into successful digital ventures.</p>
                                    <div class="carousel-content-btns">
                                     <style>
                                         .carousel-content-btns a{
@@ -95,16 +125,36 @@
                                        <a href="contact.html" class="btn btn-success" > Contact</a>
                                     </div>
                                </div>
-                               <div class="col-md-6 carousel-img-wrapper">
-                                   <img src="assets/images/banner/01.png" alt="carousel-img" class="img-fluid" width="400px">
+                               <div class="col-md-6 carousel-img-wrapper text-center">
+                                   <img src="assets/images/banner/01.png" alt="carousel-img" class="img-fluid" width="600">
                                </div>
                            </div>
                        </div>
-                       <div class="carousel-item p-md-5 p-3">
-                            <div class="row p-2 p-md-4 align-items-center" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;">
+                       <div class="carousel-item px-md-5 px-4 py-3">
+                            <div class="row p-2 p-md-4 align-items-center hero-card">
                                 <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>The best Digital Marketing Services</h1>
-                                    <p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
+                                    <h1 class="main-text">Strategize. <br> Innovate. <br> Digitize.</h1>
+                                    <p class="sub-text">Our methodology revolves around strategic planning, innovative thinking, and seamless digitization to propel your business forward in the digital age.</p>
+                                    <div class="carousel-content-btns">
+                                        <style>
+                                            .carousel-content-btns a{
+                                                background-color: #479fbd;
+                                                border: none;
+                                            }
+                                        </style>
+                                           <a href="contact.html" class="btn btn-success" > Contact</a>
+                                        </div>
+                                </div>
+                                <div class="col-md-6 carousel-img-wrapper text-center text-center">
+                                    <img src="assets/images/banner/02.png" alt="carousel-img" class="img-fluid my-5"  width="500">
+                                </div>
+                            </div>
+                       </div>
+                       <div class="carousel-item px-md-5 px-4 py-3">
+                            <div class="row p-2 p-md-4 align-items-center hero-card">
+                                <div class="col-md-6 carousel-content-wrapper">
+                                    <h1 class="main-text">Crafting <br>your digital <br> journey</h1>
+                                    <p class="sub-text">We customize each stage with precision and designing every interaction to elevate user experience and ensure optimal outcomes.</p>
                                     <div class="carousel-content-btns">
                                         <style>
                                             .carousel-content-btns a{
@@ -116,34 +166,13 @@
                                         </div>
                                 </div>
                                 <div class="col-md-6 carousel-img-wrapper text-center">
-                                    <img src="assets/images/banner/02.png" alt="carousel-img" class="img-fluid my-5"  width="380px">
-                                </div>
-                            </div>
-                       </div>
-                       <div class="carousel-item p-md-5 p-3">
-                            <div class="row p-2 p-md-4" style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; border-radius: 20px;">
-                                <div class="col-md-6 carousel-content-wrapper">
-                                    <h1>Empowering Growth with Dedication and Innovation</h1>
-                                    <p>He has led a remarkable campaign, defying the traditional mainstream parties courtesy of his En Marche! movement.</p>
-                                    <div class="carousel-content-btns">
-                                        <style>
-                                            .carousel-content-btns a{
-                                                background-color: #479fbd;
-                                                border: none;
-                                            }
-                                        </style>
-                                           <a href="contact.html" class="btn btn-success" > Contact</a>
-                                        </div>
-                                </div>
-                                <div class="col-md-6 carousel-img-wrapper">
-                                    <img src="assets/images/banner/03.png" alt="carousel-img" class="img-fluid" width="400px">
+                                    <img src="assets/images/banner/03.png" alt="carousel-img" class="img-fluid" width="600">
                                 </div>
                             </div>
                        </div>
                    </div>
                </div> 
             </div>
-        </div>
     </header>
 
     <main>
@@ -194,135 +223,135 @@
             <div class="container" id="services">
                 <h4 class="edica-landing-section-subtitle-alt">What We Do</h4>
                 <h2 class="edica-landing-section-title">Our <span style="color: #346a98;">Services</span></h2>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/wesite.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Web Development</h4>
-                            <p class="service-card-description" style="color: #bababa;">Elevate your online presence with bespoke websites that seamlessly blend creativity and functionality, designed to amplify your brand's impact.</p>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/wesite.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Web Development</h4>
+                                <p class="service-card-description" style="color: #bababa;">Elevate your online presence with bespoke websites that seamlessly blend creativity and functionality, designed to amplify your brand's impact.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/digital-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Digital Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Expand your digital footprint and maximize your online potential with our comprehensive digital marketing services tailored to your unique needs.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/digital-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Digital Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Expand your digital footprint and maximize your online potential with our comprehensive digital marketing services tailored to your unique needs.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/seo.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Search Engine Optimization (SEO)</h4>
-                            <p class="service-card-description" style="color: #bababa;">Increase organic visibility and drive targeted traffic to your website with our proven SEO strategies, ensuring your business stands out amidst the competition.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/seo.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Search Engine Optimization (SEO)</h4>
+                                <p class="service-card-description" style="color: #bababa;">Increase organic visibility and drive targeted traffic to your website with our proven SEO strategies, ensuring your business stands out amidst the competition.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/social-media-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Social Media Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Harness the power of social media to engage your audience, generate leads, and build a strong brand presence with our innovative social media marketing solutions.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/social-media-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Social Media Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Harness the power of social media to engage your audience, generate leads, and build a strong brand presence with our innovative social media marketing solutions.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/ecommerce.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">E-commerce Solutions</h4>
-                            <p class="service-card-description" style="color: #bababa;">Embark on a successful online journey with our robust e-commerce platforms designed to attract and retain customers effortlessly.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/ecommerce.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">E-commerce Solutions</h4>
+                                <p class="service-card-description" style="color: #bababa;">Embark on a successful online journey with our robust e-commerce platforms designed to attract and retain customers effortlessly.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" id="online-advertising">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/Online-Advertising.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Online Advertising</h4>
-                            <p class="service-card-description" style="color: #bababa;">Reach your target audience effectively with custom-tailored online marketing techniques, ensuring maximum reach and conversion rates.</p>
+                        <div class="col-lg-4 col-md-6" id="online-advertising">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/Online-Advertising.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Online Advertising</h4>
+                                <p class="service-card-description" style="color: #bababa;">Reach your target audience effectively with custom-tailored online marketing techniques, ensuring maximum reach and conversion rates.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/Content-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Content Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Engage your audience with compelling content tailored to your brand's identity, crafted by our dedicated content marketing team.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/Content-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Content Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Engage your audience with compelling content tailored to your brand's identity, crafted by our dedicated content marketing team.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/Influencer-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Influencer Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Amplify your brand's visibility and credibility with our elite network of influencers, driving increased engagement and brand awareness.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/Influencer-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Influencer Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Amplify your brand's visibility and credibility with our elite network of influencers, driving increased engagement and brand awareness.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/Online-Reputation-Management.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Online Reputation Management</h4>
-                            <p class="service-card-description" style="color: #bababa;">Build and maintain a positive online reputation with our proactive reputation management strategies, enhancing brand credibility and trust.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/Online-Reputation-Management.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Online Reputation Management</h4>
+                                <p class="service-card-description" style="color: #bababa;">Build and maintain a positive online reputation with our proactive reputation management strategies, enhancing brand credibility and trust.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/Email-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Email Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Drive sales and foster customer relationships with targeted email marketing campaigns designed to maximize engagement and conversions.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/Email-Marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Email Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Drive sales and foster customer relationships with targeted email marketing campaigns designed to maximize engagement and conversions.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/mobile-app-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Mobile App Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Reach a wider audience and keep users engaged with our end-to-end mobile app marketing solutions, ensuring your app stands out in the crowded marketplace.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/mobile-app-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Mobile App Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Reach a wider audience and keep users engaged with our end-to-end mobile app marketing solutions, ensuring your app stands out in the crowded marketplace.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/video-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Video Marketing</h4>
-                            <p class="service-card-description" style="color: #bababa;">Captivate your audience with visually stunning video content that enhances your brand identity and drives meaningful engagement.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/video-marketing.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Video Marketing</h4>
+                                <p class="service-card-description" style="color: #bababa;">Captivate your audience with visually stunning video content that enhances your brand identity and drives meaningful engagement.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/custom-website.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Custom Website Development</h4>
-                            <p class="service-card-description" style="color: #bababa;">Showcase your brand's uniqueness with custom-designed websites that reflect your reliability, credibility, and commitment to excellence.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/custom-website.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Custom Website Development</h4>
+                                <p class="service-card-description" style="color: #bababa;">Showcase your brand's uniqueness with custom-designed websites that reflect your reliability, credibility, and commitment to excellence.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" id="branding">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/branding.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Branding</h4>
-                            <p class="service-card-description" style="color: #bababa;">Stand out from the crowd with captivating logos, memorable taglines, and innovative branding campaigns that leave a lasting impression.</p>
+                        <div class="col-lg-4 col-md-6" id="branding">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/branding.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Branding</h4>
+                                <p class="service-card-description" style="color: #bababa;">Stand out from the crowd with captivating logos, memorable taglines, and innovative branding campaigns that leave a lasting impression.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/mobile-app-development.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Mobile App Development</h4>
-                            <p class="service-card-description" style="color: #bababa;">Elevate your business with exclusive mobile apps designed to enhance user experience and drive brand loyalty.</p>
+                        <div class="col-lg-4 col-md-6">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/mobile-app-development.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Mobile App Development</h4>
+                                <p class="service-card-description" style="color: #bababa;">Elevate your business with exclusive mobile apps designed to enhance user experience and drive brand loyalty.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" id="web-hosting">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/web-hosting.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Web Hosting</h4>
-                            <p class="service-card-description" style="color: #bababa;">Ensure reliability and security with our premier web hosting solutions, backed by advanced security features and unparalleled support.</p>
+                        <div class="col-lg-4 col-md-6" id="web-hosting">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/web-hosting.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Web Hosting</h4>
+                                <p class="service-card-description" style="color: #bababa;">Ensure reliability and security with our premier web hosting solutions, backed by advanced security features and unparalleled support.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" id="video-production">
-                        <div class=" landing-service-card p-4" data-aos="fade-right">
-                            <img src="assets/images/services/video-production.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Video Production</h4>
-                            <p class="service-card-description" style="color: #bababa;">Communicate your message effectively with professionally crafted video content that resonates with your audience and drives action.</p>
+                        <div class="col-lg-4 col-md-6" id="video-production">
+                            <div class=" landing-service-card p-4" data-aos="fade-right">
+                                <img src="assets/images/services/video-production.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Video Production</h4>
+                                <p class="service-card-description" style="color: #bababa;">Communicate your message effectively with professionally crafted video content that resonates with your audience and drives action.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" id="digital-business-card">
-                        <div class=" landing-service-card p-4" data-aos="fade-left">
-                            <img src="assets/images/services/digital-business-card.png" alt="card img" class="img-fluid service-card-img" width="70">
-                            <h4 class="service-card-title">Digital Business Card Maker</h4>
-                            <p class="service-card-description" style="color: #bababa;">Make a lasting impression with our contemporary digital business cards, designed to enhance your brand's value and leave a lasting impression.</p>
+                        <div class="col-lg-4 col-md-6" id="digital-business-card">
+                            <div class=" landing-service-card p-4" data-aos="fade-left">
+                                <img src="assets/images/services/digital-business-card.png" alt="card img" class="img-fluid service-card-img" width="70">
+                                <h4 class="service-card-title">Digital Business Card Maker</h4>
+                                <p class="service-card-description" style="color: #bababa;">Make a lasting impression with our contemporary digital business cards, designed to enhance your brand's value and leave a lasting impression.</p>
+                            </div>
                         </div>
+                        
                     </div>
-                    
-                </div>
             </div>
         </section>
         <section style="background: #1c1c1c;">
@@ -972,7 +1001,7 @@
 
         <style>
             .content-card-container{
-                background: rgb(227, 228, 236);
+                background: rgb(255, 255, 255);
             }
             .content-card{
                 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -980,24 +1009,31 @@
                 border-radius: 20px;
             }
         </style>
-        <section class=" content-card-container" >
-            <div class="container ">
-                <div class="row">
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-left: 100px;">
-                            <h5>Client Research and Business Understanding</h5>
+        <section class="content-card-container">
+            <div class="container">
+                <div class="row my-2">
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-right">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #ffd602;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Client Research and Business Understanding</h5>
+                                <img src="assets/images/numbers/one.png" alt="" width="80">
+                            </div>
                             <small>
                                 No digital marketing agency in Kerala or any other region can 
                                 perform well without in-depth research and knowledge about the business. 
                                 We undertake detailed client research to understand the business and prospective 
                                 areas that can be explored to reap phenomenal results.
-                            </small>
+                            </small><br>
+                            <div class="text-right"></div>
                         </div>
                     </div>
-
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-right: 100px;">
-                            <h5>Proposal</h5>
+        
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-left">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #f59d02;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Proposal</h5>
+                                <img src="assets/images/numbers/two.png" alt="" width="80">
+                            </div>
                             <small>
                                 The comprehensive proposal submitted by Cognetz will contain concepts for 
                                 commencing digital marketing, the way ahead for ensuring exceptional reach, 
@@ -1006,10 +1042,13 @@
                             </small>
                         </div>
                     </div>
-
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-left: 100px;">
-                            <h5>Strategies</h5>
+        
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-right">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #ea6a3b;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Strategies</h5>
+                                <img src="assets/images/numbers/three.png" alt="" width="80">
+                            </div>
                             <small>
                                 Digital marketing strategy we embrace will be depending on the type of business and areas of 
                                 operation. The exclusive strategy will be prepared based on the in-house brainstorming 
@@ -1018,10 +1057,13 @@
                             </small>
                         </div>
                     </div>
-
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-right: 100px;">
-                            <h5>Execution</h5>
+        
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-left">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #ea4f3c;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Execution</h5>
+                                <img src="assets/images/numbers/four.png" alt="" width="80">
+                            </div>
                             <small>
                                 Execution of digital marketing strategies is undoubtedly an intricate task that will necessitate 
                                 a detailed study. Then only one can expect a fruitful outcome from the digital marketing campaigns. 
@@ -1029,10 +1071,13 @@
                             </small>
                         </div>
                     </div>
-
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-left: 100px;">
-                            <h5>Analysis and Amendments</h5>
+        
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-right">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #bc0167;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Analysis and Amendments</h5>
+                                <img src="assets/images/numbers/five.png" alt="" width="80">
+                            </div>
                             <small>
                                 Our team will analyze each of the campaign results to identify the shortcomings, if any, and 
                                 undertake necessary course corrections. The constant analysis and amendments make our digital 
@@ -1040,10 +1085,13 @@
                             </small>
                         </div>
                     </div>
-
-                    <div class="col-md-12 p-1">
-                        <div class="content-card p-5" style="margin-right: 100px;">
-                            <h5>Reporting</h5>
+        
+                    <div class="col-md-6 col-lg-6 d-flex align-items-stretch" data-aos="fade-left">
+                        <div class="content-card p-5 my-3" style="border-bottom: 6px solid #bc0167;">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <h5>Reporting</h5>
+                                <img src="assets/images/numbers/six.png" alt="" width="80">
+                            </div>
                             <small>
                                 The designated digital marketing manager will render the client with elaborated analytical data 
                                 periodically, in addition to, frequent reports and suggestions on enhanced methodologies. We are 
@@ -1052,26 +1100,55 @@
                             </small>
                         </div>
                     </div>
-                </div >
+                </div>
             </div>
         </section>
+        
 
-        <section class="edica-landing-section edica-landing-blog-posts">
-            <div class="container">
+
+        <section class="bg-light">
+            <style>
+                .connect-text{
+                    font-size: 60px;
+                    font-weight: 500;
+                }
+                .contact-button{
+                    border: 2px solid black;
+                    color: #1c1c1c;
+                    text-decoration: none;
+                    font-size: 30px;
+                    padding: 10px 30px 10px 30px;
+                    border-radius: 30px;
+                }
+                .contact-button:hover{
+                    background: #1c1c1c;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                @keyframes moveUpDown {
+                    0% {
+                        transform: translateY(0);
+                    }
+                    50% {
+                        transform: translateY(-30px);
+                    }
+                    100% {
+                        transform: translateY(0);
+                    }
+                }
+
+                .animate-move {
+                    animation: moveUpDown 2s infinite;
+                }
+            </style>
+            <div class="container py-5">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="blog-post-card blog-post-1 mb-4 mb-md-0" data-aos="fade-right">
-                            <p class="post-category">App Design</p>
-                            <h2 class="post-title">Check our latest blog post for more update.</h2>
-                            <a href="#!" class="post-link">Learn more</a>
-                        </div>
+                        <h1 class="connect-text mb-5">Connect with us</h1>
+                        <a href="contact.html" class="contact-button">Contact Now</a>
                     </div>
-                    <div class="col-md-6">
-                        <div class="blog-post-card blog-post-2" data-aos="fade-left">
-                            <p class="post-category">App Design</p>
-                            <h2 class="post-title">Check our latest blog post for more update.</h2>
-                            <a href="#!" class="post-link">Learn more</a>
-                        </div>
+                    <div class="col-md-6 text-center">
+                        <img src="assets/images/connect.jpg" width="300" alt="" class="animate-move">
                     </div>
                 </div>
             </div>
